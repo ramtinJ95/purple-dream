@@ -29,11 +29,11 @@ window .symbols {
 
 window .box-wrapper {
     background: @base;
-    border: 1px solid alpha(@border, 0.4);
+    border: 2px solid @selected-text;
     border-radius: 10px;
     padding: 4px;
     margin: 0;
-    box-shadow: 0 2px 12px alpha(black, 0.5);
+    box-shadow: 0 0 10px @selected-text;
 }
 
 window .search-container {
@@ -127,4 +127,3 @@ window scrollbar {
     min-width: 0;
     min-height: 0;
 }
-
